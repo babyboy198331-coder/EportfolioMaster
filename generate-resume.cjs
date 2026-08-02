@@ -146,7 +146,7 @@ const doc = new Document({
       projectLine('OfferBound', 'React, Vite, Firebase Auth, Cloud Firestore',
         'Job-application tracker built end to end — Google sign-in, per-user Firestore data, stats dashboard, and a Resume Scanner with ATS match scoring',
         'offerbound.vercel.app'),
-      projectLine('ai-chat-interface', 'Next.js, TypeScript, Tailwind CSS, OpenRouter API',
+      projectLine('nimbus-ai', 'Next.js, TypeScript, Tailwind CSS, OpenRouter API',
         'Multi-model chat interface with live token streaming, markdown rendering, and persistent conversations across DeepSeek, Llama, and Gemma'),
       projectLine('Mini Expense Tracker', 'Express, PostgreSQL, JWT, bcrypt',
         'Full-stack expense tracker built to go deep on auth — bcrypt hashing, rotating JWT access/refresh tokens, and a one-time-token reset flow',

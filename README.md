@@ -30,7 +30,7 @@
 | **Summarist** — Subscription reading app | Next.js, Redux, Firebase, Stripe | [summarist-vert.vercel.app](https://summarist-vert.vercel.app) |
 | **Cinegalaxy** — Movie browsing app | Next.js, TypeScript, Tailwind | [imdb-clone-one-theta.vercel.app](https://imdb-clone-one-theta.vercel.app) |
 | **NFT Marketplace** — NFT marketplace with routing & Firebase | React, Firebase, Axios | [john-internship-sj1k.vercel.app](https://john-internship-sj1k.vercel.app) |
-| **AI Chat Interface** — DeepSeek chat clone | Next.js, TypeScript, Tailwind | [deep-seek-clone-wine.vercel.app](https://deep-seek-clone-wine.vercel.app) |
+| **nimbus-ai** — DeepSeek chat clone | Next.js, TypeScript, Tailwind | [deep-seek-clone-wine.vercel.app](https://deep-seek-clone-wine.vercel.app) |
 
 ---
 

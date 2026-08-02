@@ -132,7 +132,7 @@ export default function Projects() {
               </div>
             </li>
 
-            {/* ai-chat-interface — side by side with Mini Expense Tracker */}
+            {/* nimbus-ai — side by side with Mini Expense Tracker */}
             <li className="project">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
@@ -142,13 +142,13 @@ export default function Projects() {
                     </div>
                     <img
                       src="/assets/screenshot-1781315851205.png"
-                      alt="ai-chat-interface screenshot"
+                      alt="nimbus-ai screenshot"
                       className="project__screenshot-img"
                     />
                   </div>
                 </div>
                 <div className="project__description">
-                  <h3 className="project__description--title">ai-chat-interface</h3>
+                  <h3 className="project__description--title">nimbus-ai</h3>
                   <h4 className="project__description--sub-title">
                     Next.js, React, TypeScript, Tailwind CSS, OpenRouter API
                   </h4>
@@ -159,10 +159,10 @@ export default function Projects() {
                     like DeepSeek, Llama, and Gemma, not a UI clone.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/jbass-dev/ai-chat-interface" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
+                    <a href="https://github.com/jbass-dev/ai-chat-interface" target="_blank" rel="noreferrer" className="project__description--link" aria-label="nimbus-ai GitHub" title="View nimbus-ai source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
+                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="nimbus-ai live" title="Open the live nimbus-ai app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -170,7 +170,7 @@ export default function Projects() {
               </div>
             </li>
 
-            {/* Mini Expense Tracker — side by side with ai-chat-interface */}
+            {/* Mini Expense Tracker — side by side with nimbus-ai */}
             <li className="project">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
