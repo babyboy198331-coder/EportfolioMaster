@@ -50,7 +50,7 @@ export default function Projects() {
               </div>
             </li>
 
-            {/* CRM AI */}
+            {/* ShiftGrid */}
             <li className="project">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
@@ -59,30 +59,33 @@ export default function Projects() {
                       <span></span><span></span><span></span>
                     </div>
                     <img
-                      src="/assets/crm-ai.png"
-                      alt="CRM AI dashboard screenshot"
+                      src="/assets/ShiftGrid.png"
+                      alt="ShiftGrid weekly staff scheduling dashboard screenshot"
                       className="project__screenshot-img"
                     />
                   </div>
                 </div>
                 <div className="project__description">
-                  <h3 className="project__description--title">CRM AI</h3>
+                  <h3 className="project__description--title">ShiftGrid</h3>
                   <h4 className="project__description--sub-title">
-                    Next.js, Node.js/Express, Prisma, PostgreSQL, Docker, Railway, OpenAI API
+                    Next.js, TypeScript, Tailwind CSS, PostgreSQL/Prisma, dnd-kit, Vitest, Vercel
                   </h4>
                   <p className="project__description--para">
-                    A full-stack CRM with customer/contact management, file
-                    uploads, and role-based permissions (Admin/Manager/Rep) —
-                    plus AI features layered on top: meeting summaries,
-                    follow-up email drafts, and a customer Q&amp;A chatbot.
-                    Containerized with Docker for local dev and deployed as
-                    three services (frontend, backend, Postgres) on Railway.
+                    Small shops schedule staff by hand — on paper, whiteboards,
+                    and spreadsheets held together by the manager&apos;s memory.
+                    After doing exactly that every week for seven years running a
+                    lube shop, I built the tool I wish I&apos;d had: drag a person
+                    onto a shift and the schedule validates every move in real
+                    time while keeping a running labor cost. A constraint engine
+                    of pure, unit-tested logic backs the accessible, fully
+                    keyboard-operable week grid, on a Prisma/Postgres data model
+                    hosted on Neon.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/jbass-dev/crm-ai" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI GitHub" title="View CRM AI source code on GitHub">
+                    <a href="https://github.com/jbass-dev/ShiftGrid" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ShiftGrid GitHub" title="View ShiftGrid source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://independent-perfection-production-c08c.up.railway.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI live" title="Open the live CRM AI app">
+                    <a href="https://shift-grid-liart.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ShiftGrid live" title="Open the live ShiftGrid app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>

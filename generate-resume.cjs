@@ -140,8 +140,9 @@ const doc = new Document({
 
       // ── PROJECTS ──
       ...sectionHeader('PROJECTS'),
-      projectLine('CRM AI', 'Next.js, Node.js/Express, Prisma, PostgreSQL, Docker, Railway, OpenAI API',
-        'Full-stack CRM with role-based permissions and AI features (meeting summaries, follow-up drafts, Q&A chatbot); containerized with Docker, deployed as three services on Railway'),
+      projectLine('ShiftGrid', 'Next.js, TypeScript, Tailwind CSS, PostgreSQL/Prisma, dnd-kit, Vitest, Vercel',
+        'Staff-scheduling tool — drag a person onto a shift and a unit-tested constraint engine validates every move in real time while tracking a running labor cost; accessible, keyboard-operable week grid on a Prisma/Postgres model hosted on Neon',
+        'shift-grid-liart.vercel.app'),
       projectLine('OfferBound', 'React, Vite, Firebase Auth, Cloud Firestore',
         'Job-application tracker built end to end — Google sign-in, per-user Firestore data, stats dashboard, and a Resume Scanner with ATS match scoring',
         'offerbound.vercel.app'),
